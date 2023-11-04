@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RainyDays - Home</title>
+        <meta name="description" content="The home page to Rainydays jacket website." />
+        <meta name="viewport" content="width=device-width, initial scale=1" />
+        <link href="CSS/shoppingcart.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/28f0a6b7dc.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="image-header">
+                <img src="images/Header_photo5.jpg" alt="Man running over bridge" class="responsive-image" />
+                <div class="headerlogo-overlay">
+                    <a href="index.html">
+                        <img src="images/RainyDays_Logo2.png" alt="Rainy days logo" />
+                    </a>
+                </div>
+                <div class="header-icons">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="cart-icon">
+                        <a href="shoppingcart.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span id="cart-item-count"></span>
+                        </a>
+                    </div>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+            <div class="navbar">
+                <input type="checkbox" id="toggle-menu">
+                <label for="toggle-menu" class="toggle-button">&#9776;</label>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="men.html">MEN</a></li>
+                        <li><a href="women.html">WOMEN</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="cart">
+                <div class="shopping-header">
+                    <h3 class="shopping-cart">Shopping Cart</h3>
+                    <h5 class="action">Remove all</h5>
+                </div>
+                <div class="cart-items">
+                    <div class="image-box">
+                        <img src="images/RainyDays_Jacket7.jpg" style="height: 200px;"/>
+                    </div>
+                    <div class="about">
+                        <h1 class="title">Patagonia</h1>
+                        <h3 class="subtitle">Better Sweater</h3>
+                    </div>
+                    <div class="counter">
+                        <div class="btn">+</div>
+                        <div class="count">1</div>
+                        <div class="btn">-</div>
+                    </div>
+                    <div class="prices">
+                        <div class="amount">195$</div>
+                        <div class="remove"><i class="fa-solid fa-trash-can"></i></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="checkout">
+                    <div class="total">
+                        <div>
+                            <div class="subtotal">Subtotal</div>
+                            <div class="items">1 item</div>
+                        </div>
+                        <div class="total-amount">195$</div>
+                        </div>
+                    <a href="checkout.html" class="button">Checkout</a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-left">
+                <h5>Follow us</h5>
+                <div class="footer-left">
+                    <p class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span class="text">INSTAGRAM</span>
+                    </p>
+                    <p class="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span class="text">FACEBOOK</span>
+                    </p>
+                    <p class="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span class="text">LINKEDIN</span>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-center">
+                <div class="footer-logo"><img src="images/RainyDays_Logo.png" alt="Rainy Days logo"></div>
+                <p>&copy; 2023 Rainydays</p>
+            </div>
+            <div class="footer-right">
+                <h5>Contact us</h5>
+                <div class="footer-icons-right">
+                    <p class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="text">+47 908 00 809</span>
+                    </p>
+                    <p class="email">
+                        <i class="fa-solid fa-at"></i>
+                        <span class="text">contact@rainydays.com</span>
+                    </p>
+                    <p class="address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span class="text">0871 OSLO</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
