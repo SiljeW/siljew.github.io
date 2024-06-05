@@ -2,11 +2,10 @@
 
 ![image](https://siljew.github.io/images/Header_photo4.jpg)
 
-This website project contains outdoor clothing.
+This website project is a webshop containing outdoor clothing.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
 The Rainy Days project assignment entailed creating a responsive website based on an earlier assignment brief(Design 1), by using only CSS and HTML.
 This was actually the first time I have ever coded a website.
 
